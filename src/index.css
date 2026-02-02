@@ -1,0 +1,106 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #222 !important;
+  color: white !important;
+  font-family: sans-serif;
+}
+
+/* .boxed {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.full_width {
+  width: 100%;
+}
+
+.half_width {
+  width: 50%;
+}
+
+.card {
+
+  background-color: #595c5e;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.little_card {
+  width: calc((100% - 1rem) / 2);
+}
+
+.big_card {
+  width: calc((100% - 3rem) / 4);
+}
+
+.card h2 {
+  width: 100%;
+  font-size: larger;
+  position: relative;
+
+}
+
+.card h2 .date {
+  position: absolute;
+  right: 0;
+  font-size: medium;
+}
+
+.card h2 strong {
+  position: absolute;
+  left: 0;
+  width: 70%;
+  white-space: pre-wrap;
+}
+
+.card img {
+  width: 100%;
+  margin-top: 3.5rem;
+  object-fit: cover;
+  object-position: top left;
+  aspect-ratio: 1/1.5;
+  overflow: hidden;
+}
+
+.dead {
+  color: #800606;
+}
+
+.alive {
+  color: #82c060;
+}
+
+.card .bio {
+  height: 4.5rem;
+  overflow: scroll;
+  border-style: double;
+  border-color: #3b3d3f;
+} */
