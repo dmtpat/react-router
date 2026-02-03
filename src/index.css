@@ -43,6 +43,10 @@ body {
   align-content: center;
 }
 
+.ms_j_center {
+  justify-content: center;
+}
+
 /* ----------HEADER style---------------------->^.^<----------------------------------------- */
 .ms_bg_light {
   background-color: #F8F9FA;
@@ -78,6 +82,16 @@ nav ul li {
 
 }
 
+
+/* ----------------FOOTER style---------->^.^<-------------------------------------- */
+
+footer {
+  background-color: #CED4DA;
+  color: #222222;
+  padding: 1rem 1rem;
+  position: absolute;
+  bottom: 0;
+}
 
 /* ----------------CARD style---------->^.^<-------------------------------------- */
 .card_container {
