@@ -107,24 +107,13 @@ footer {
   width: 100%;
 }
 
-.half_width {
-  width: 50%;
-}
-
 .card {
 
   background-color: #595c5e;
   border-radius: 1rem;
   padding: 1.5rem;
   margin-bottom: 1rem;
-}
-
-.little_card {
-  width: calc((100% - 1rem) / 2);
-}
-
-.big_card {
-  width: calc((100% - 3rem) / 4);
+  width: calc((100% - 4rem) / 5);
 }
 
 .card h2 {
@@ -149,9 +138,8 @@ footer {
 
 .card img {
   width: 100%;
-  margin-top: 3.5rem;
-  object-fit: cover;
-  object-position: top left;
+
+  object-fit: contain;
   aspect-ratio: 1/1.5;
   overflow: hidden;
 }
@@ -177,4 +165,28 @@ footer {
   object-position: center;
   overflow: hidden;
   height: 100vh;
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+.marquee h2 {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(-300%);
+  }
 }
