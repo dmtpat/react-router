@@ -57,16 +57,24 @@ nav {
   padding: 1.5rem 1rem;
 }
 
-nav ul {
-  list-style: none;
 
-}
-
-nav ul li {
+nav .link {
   float: left;
   white-space: nowrap;
   margin: 0 2rem;
+  color: #222222;
+  text-decoration: none;
+  font-weight: 600;
 }
+
+nav .active {
+  color: #802C6E;
+  text-decoration: underline;
+  text-underline-offset: 2.1rem;
+  text-decoration-thickness: 0.5rem;
+
+}
+
 
 .logo a {
   text-decoration: none;

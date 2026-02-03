@@ -9,11 +9,11 @@ function Header() {
                     <span >E-commerce</span>
                 </a>
             </div>
-            <ul className="flex ms_no_wrap">
-                <li><NavLink className="link" to="/">Home</NavLink></li>
-                <li><NavLink className="link" to="/chiSiamo">Chi Siamo</NavLink></li>
-                <li>Prodotti</li>
-            </ul>
+            <div className="flex ms_no_wrap">
+                <NavLink className="link" to="/">Home</NavLink>
+                <NavLink className="link" to="/chiSiamo">Chi Siamo</NavLink>
+                <NavLink className="link" to="/prodotti">Prodotti</NavLink>
+            </div>
         </nav >
     )
 }
