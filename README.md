@@ -6,9 +6,9 @@
 ## PARTE 1
 Installiamo React Router DOM: ==npm i react-router-dom==
 Creiamo almeno 3 pagine principali:
-Homepage (con un messaggio di benvenuto o immagine promozionale)
-Chi siamo
-Prodotti (pagina che mostrerà la lista dei prodotti prendendoli da [qui](https://fakestoreapi.com/products))
+- Homepage (con un messaggio di benvenuto o immagine promozionale)
+- Chi siamo
+- Prodotti (pagina che mostrerà la lista dei prodotti prendendoli da [qui](https://fakestoreapi.com/products))
 Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse
 
 ### BONUS PARTE 1

@@ -2,17 +2,19 @@
 
 function Header() {
     return (
-        <div className="container-fluid">
-            <nav className="navbar bg-body-tertiary">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#" >
-                        <img src="https://fakestoreapi.com/icons/logo.png" alt="Bootstrap" width="40" height="40" />
-                        <span className="ps-1">E-commerce</span>
-                    </a>
-
-                </div>
-            </nav >
-        </div >
+        <nav className="flex ms_bg_light ms_between ms_v_center full_width">
+            <div className="logo">
+                <a href="#" >
+                    <img src="https://fakestoreapi.com/icons/logo.png" alt="e-commerce" />
+                    <span >E-commerce</span>
+                </a>
+            </div>
+            <ul className="flex ms_no_wrap">
+                <li>Home</li>
+                <li>Chi Siamo</li>
+                <li>Prodotti</li>
+            </ul>
+        </nav >
     )
 }
 export default Header
