@@ -40,7 +40,7 @@ body {
 }
 
 .ms_v_center {
-  align-content: center;
+  align-items: center;
 }
 
 .ms_j_center {
@@ -89,8 +89,8 @@ footer {
   background-color: #CED4DA;
   color: #222222;
   padding: 1rem 1rem;
-  position: absolute;
-  bottom: 0;
+
+  margin-bottom: 0;
 }
 
 /* ----------------CARD style---------->^.^<-------------------------------------- */
@@ -166,4 +166,12 @@ footer {
   overflow: scroll;
   border-style: double;
   border-color: #3b3d3f;
+}
+
+/* --------------Home style---------------->^.^<-------------------- */
+.jumbo {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  height: 100vh;
 }

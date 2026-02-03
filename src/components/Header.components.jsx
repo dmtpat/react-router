@@ -1,4 +1,4 @@
-
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
     return (
@@ -10,7 +10,7 @@ function Header() {
                 </a>
             </div>
             <ul className="flex ms_no_wrap">
-                <li>Home</li>
+                <li><NavLink className="link" to="/">Home</NavLink></li>
                 <li>Chi Siamo</li>
                 <li>Prodotti</li>
             </ul>
