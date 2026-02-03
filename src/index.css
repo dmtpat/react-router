@@ -75,17 +75,12 @@ nav .active {
 
 }
 
-
-.logo a {
-  text-decoration: none;
-  color: #222222;
-}
-
-.logo a span {
+.logo span {
   padding: 0 1rem;
+  display: inline-block;
 }
 
-.logo a img {
+.logo img {
   width: 3rem;
 
 }
