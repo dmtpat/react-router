@@ -11,7 +11,7 @@ function Header() {
             </div>
             <ul className="flex ms_no_wrap">
                 <li><NavLink className="link" to="/">Home</NavLink></li>
-                <li>Chi Siamo</li>
+                <li><NavLink className="link" to="/chiSiamo">Chi Siamo</NavLink></li>
                 <li>Prodotti</li>
             </ul>
         </nav >
