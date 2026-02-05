@@ -217,3 +217,33 @@ footer {
 .card_container a:link {
   color: #ffffff;
 }
+
+/* -------bottoni------------>^.^<---------------------------- */
+.btn {
+  display: inline-block;
+  border-color: #802C6E;
+  padding: 0.5rem 1rem;
+  color: #802C6E;
+  text-decoration: none;
+  border: solid 1px;
+  border-radius: 2rem;
+  background-color: #F8F9FA;
+}
+
+.btn:hover {
+  border-color: #F8F9FA;
+  background-color: #802C6E;
+  color: #F8F9FA;
+}
+
+.btn-right {
+  margin-right: 0;
+}
+
+.d_none {
+  visibility: hidden;
+}
+
+.navigationBtn {
+  margin-top: 2rem;
+}

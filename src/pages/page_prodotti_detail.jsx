@@ -38,7 +38,7 @@ function Product_detail() {
 
     return (
         <main>
-            <div className="boxed details">
+            <div id='productDetail' className="boxed details">
                 <h1 className='full_width'>{prodotto.title} </h1>
                 <p className='category' >{prodotto.category}</p>
                 <div className="flex">
@@ -56,9 +56,9 @@ function Product_detail() {
                         <p>&euro; {prodotto.price}</p>
                     </div>
                 </div>
-                <div className='full_width flex ms_between'>
-                    <button onClick={() => navigate(`/prodotti/${parseInt(id) - 1}`)}>Vai al prodotto precedente</button>
-                    <button onClick={() => navigate(`/prodotti/${parseInt(id) + 1}`)}>Vai al prodotto successivo</button>
+                <div className='full_width flex ms_between navigationBtn'>
+                    <button className={`btn ${id == 1 && "d_none"}`} onClick={() => navigate(`/prodotti/${parseInt(id) - 1}`)}>Vai al prodotto precedente</button>
+                    <button className={`btn ${id == 20 && "d_none"}`} onClick={() => navigate(`/prodotti/${parseInt(id) + 1}`)}>Vai al prodotto successivo</button>
                 </div>
             </div>
         </main>
