@@ -21,13 +21,12 @@ function Page_prodotti() {
             <div className="card_container">
                 {prodotti.map((prodotto) => {
                     return (
-                        <div className="card" key={prodotto.id} >
+                        <Link to={`/prodotti/${prodotto.id}`} className="card" key={prodotto.id} >
                             <img src={prodotto.image} alt="" />
                             <div className="marquee">
                                 <h2>{prodotto.title}</h2>
                             </div>
-                            <Link to={`/prodotti/${prodotto.id}`} >Vai ai dettagli</Link>
-                        </div>
+                        </Link>
                     )
                 })}
             </div>

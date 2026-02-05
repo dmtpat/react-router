@@ -31,6 +31,10 @@ body {
 
 }
 
+.ms_wrap {
+  flex-wrap: wrap;
+}
+
 .ms_no_wrap {
   flex-wrap: nowrap;
 }
@@ -58,7 +62,7 @@ nav {
 }
 
 
-nav .link {
+nav a {
   float: left;
   white-space: nowrap;
   margin: 0 2rem;
@@ -107,6 +111,10 @@ footer {
   width: 100%;
 }
 
+.half_width {
+  width: 50%;
+}
+
 .card {
 
   background-color: #595c5e;
@@ -138,25 +146,9 @@ footer {
 
 .card img {
   width: 100%;
-
   object-fit: contain;
   aspect-ratio: 1/1.5;
   overflow: hidden;
-}
-
-.dead {
-  color: #800606;
-}
-
-.alive {
-  color: #82c060;
-}
-
-.card .bio {
-  height: 4.5rem;
-  overflow: scroll;
-  border-style: double;
-  border-color: #3b3d3f;
 }
 
 /* --------------Home style---------------->^.^<-------------------- */
@@ -189,4 +181,39 @@ footer {
   to {
     transform: translateX(-300%);
   }
+}
+
+/* ------>^.^<--------DETAILS style---------------->^.^<-------------------- */
+
+.details {
+  padding: 4rem 2rem;
+}
+
+.details h1 {
+  margin-bottom: 2rem;
+}
+
+.category {
+  color: #5397df;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.details_texts {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ratings {
+  font-weight: 600;
+}
+
+.ratings span {
+  font-size: small;
+  font-weight: 400;
+}
+
+.card_container a:visited,
+.card_container a:link {
+  color: #ffffff;
 }
