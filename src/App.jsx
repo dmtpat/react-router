@@ -17,6 +17,8 @@ function App() {
           <Route path='/chiSiamo' Component={Page_chiSiamo} />
           <Route path='/prodotti' Component={Page_prodotti} />
           <Route path='/prodotti/:id' Component={Page_prodotti_detail} />
+          {/* <Route path='*' Component={Page_Error} /> */}
+          {/* Questa ultima rotta ci permette di aprire una pagina nel caso di indirizzi non specificati, tutti gli altri */}
         </Route>
       </Routes>
     </BrowserRouter>
