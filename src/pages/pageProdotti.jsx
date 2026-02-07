@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Link } from "react-router-dom";
 
-function Page_prodotti() {
+function PageProdotti() {
     const [prodotti, setProdotti] = useState([]);
     const apiUrl = "https://fakestoreapi.com/products";
 
@@ -33,4 +33,4 @@ function Page_prodotti() {
         </main>
     )
 }
-export default Page_prodotti
+export default PageProdotti
